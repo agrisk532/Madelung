@@ -1,0 +1,12 @@
+Follow these instructions to add a new spacegroup to the program
+1) Open the 'spg_names.cpp' file, located in the 'Spg_dll' project;
+2) Edit it's constructor by adding a new record for new space group (all in lower case);
+3) Edit the 'const int implementedSpaceGroups' in the spg_names.h file for the correct number
+   of implemented groups;
+4) Open the 'spg_dll.cpp' file;
+5) In the static member function 'SpaceGroup* SpaceGroup::New(int sgNumber)' add a 'case:'
+	statement for new group. In the 'new' operator choose the FULL name (from tables) for
+	the new spacegroup, let's say 'P23'; 
+6) Create the source(.cpp) and header(.h) files : P23.cpp and P23.h;
+7) Implement them from by using as examples already implemented group files;
+8) Open the 'AllSGHeaders.h' file and add an #include statement;

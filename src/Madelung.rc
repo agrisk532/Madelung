@@ -1,0 +1,1495 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Madelung.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Madelung.ico"
+IDR_MADELUTYPE          ICON    DISCARDABLE     "res\\MadelungDoc.ico"
+IDI_ICON_H              ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_ICON_HE             ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_ICON_LI             ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_ICON_BE             ICON    DISCARDABLE     "res\\ico00003.ico"
+IDI_ICON_B              ICON    DISCARDABLE     "res\\ico00004.ico"
+IDI_ICON_C              ICON    DISCARDABLE     "res\\ico00005.ico"
+IDI_ICON_N              ICON    DISCARDABLE     "res\\ico00006.ico"
+IDI_ICON_O              ICON    DISCARDABLE     "res\\ico00007.ico"
+IDI_ICON_F              ICON    DISCARDABLE     "res\\ico00008.ico"
+IDI_ICON_NE             ICON    DISCARDABLE     "res\\ico00009.ico"
+IDI_ICON_NA             ICON    DISCARDABLE     "res\\ico00010.ico"
+IDI_ICON_MG             ICON    DISCARDABLE     "res\\ico00011.ico"
+IDI_ICON_AL             ICON    DISCARDABLE     "res\\ico00012.ico"
+IDI_ICON_SI             ICON    DISCARDABLE     "res\\ico00013.ico"
+IDI_ICON_P              ICON    DISCARDABLE     "res\\ico00014.ico"
+IDI_ICON_S              ICON    DISCARDABLE     "res\\ico00015.ico"
+IDI_ICON_CL             ICON    DISCARDABLE     "res\\ico00016.ico"
+IDI_ICON_AR             ICON    DISCARDABLE     "res\\ico00017.ico"
+IDI_ICON_K              ICON    DISCARDABLE     "res\\ico00018.ico"
+IDI_ICON_CA             ICON    DISCARDABLE     "res\\icon2.ico"
+IDI_ICON_SC             ICON    DISCARDABLE     "res\\ico00019.ico"
+IDI_ICON_TI             ICON    DISCARDABLE     "res\\ico00020.ico"
+IDI_ICON_V              ICON    DISCARDABLE     "res\\ico00021.ico"
+IDI_ICON_CR             ICON    DISCARDABLE     "res\\ico00022.ico"
+IDI_ICON_MN             ICON    DISCARDABLE     "res\\ico00023.ico"
+IDI_ICON_FE             ICON    DISCARDABLE     "res\\ico00024.ico"
+IDI_ICON_CO             ICON    DISCARDABLE     "res\\ico00025.ico"
+IDI_ICON_NI             ICON    DISCARDABLE     "res\\ico00026.ico"
+IDI_ICON_CU             ICON    DISCARDABLE     "res\\ico00027.ico"
+IDI_ICON_ZN             ICON    DISCARDABLE     "res\\ico00028.ico"
+IDI_ICON_GA             ICON    DISCARDABLE     "res\\ico00029.ico"
+IDI_ICON_AS             ICON    DISCARDABLE     "res\\ico00030.ico"
+IDI_ICON_GE             ICON    DISCARDABLE     "res\\ico00031.ico"
+IDI_ICON_SE             ICON    DISCARDABLE     "res\\ico00032.ico"
+IDI_ICON_BR             ICON    DISCARDABLE     "res\\ico00033.ico"
+IDI_ICON_KR             ICON    DISCARDABLE     "res\\ico00034.ico"
+IDI_ICON_RB             ICON    DISCARDABLE     "res\\ico00035.ico"
+IDI_ICON_SR             ICON    DISCARDABLE     "res\\ico00036.ico"
+IDI_ICON_Y              ICON    DISCARDABLE     "res\\ico00037.ico"
+IDI_ICON_ZR             ICON    DISCARDABLE     "res\\ico00038.ico"
+IDI_ICON_NB             ICON    DISCARDABLE     "res\\ico00039.ico"
+IDI_ICON_MO             ICON    DISCARDABLE     "res\\ico00040.ico"
+IDI_ICON_TC             ICON    DISCARDABLE     "res\\ico00041.ico"
+IDI_ICON_RU             ICON    DISCARDABLE     "res\\ico00042.ico"
+IDI_ICON_RH             ICON    DISCARDABLE     "res\\ico00043.ico"
+IDI_ICON_PD             ICON    DISCARDABLE     "res\\ico00044.ico"
+IDI_ICON_AG             ICON    DISCARDABLE     "res\\ico00045.ico"
+IDI_ICON_CD             ICON    DISCARDABLE     "res\\ico00046.ico"
+IDI_ICON_IN             ICON    DISCARDABLE     "res\\ico00047.ico"
+IDI_ICON_SN             ICON    DISCARDABLE     "res\\ico00048.ico"
+IDI_ICON_SB             ICON    DISCARDABLE     "res\\ico00049.ico"
+IDI_ICON_TE             ICON    DISCARDABLE     "res\\ico00050.ico"
+IDI_ICON_I              ICON    DISCARDABLE     "res\\ico00051.ico"
+IDI_ICON_XE             ICON    DISCARDABLE     "res\\ico00052.ico"
+IDI_ICON_CS             ICON    DISCARDABLE     "res\\ico00053.ico"
+IDI_ICON_BA             ICON    DISCARDABLE     "res\\ico00054.ico"
+IDI_ICON_LA             ICON    DISCARDABLE     "res\\ico00055.ico"
+IDI_ICON_LU             ICON    DISCARDABLE     "res\\ico00056.ico"
+IDI_ICON_HF             ICON    DISCARDABLE     "res\\ico00057.ico"
+IDI_ICON_TA             ICON    DISCARDABLE     "res\\ico00058.ico"
+IDI_ICON_W              ICON    DISCARDABLE     "res\\ico00059.ico"
+IDI_ICON_RE             ICON    DISCARDABLE     "res\\ico00060.ico"
+IDI_ICON_OS             ICON    DISCARDABLE     "res\\ico00061.ico"
+IDI_ICON_IR             ICON    DISCARDABLE     "res\\ico00062.ico"
+IDI_ICON_PT             ICON    DISCARDABLE     "res\\ico00063.ico"
+IDI_ICON_AU             ICON    DISCARDABLE     "res\\ico00064.ico"
+IDI_ICON_HG             ICON    DISCARDABLE     "res\\ico00065.ico"
+IDI_ICON_PB             ICON    DISCARDABLE     "res\\ico00066.ico"
+IDI_ICON_BI             ICON    DISCARDABLE     "res\\ico00067.ico"
+IDI_ICON_PO             ICON    DISCARDABLE     "res\\ico00068.ico"
+IDI_ICON_AT             ICON    DISCARDABLE     "res\\ico00069.ico"
+IDI_ICON_RN             ICON    DISCARDABLE     "res\\ico00070.ico"
+IDI_ICON_FR             ICON    DISCARDABLE     "res\\ico00071.ico"
+IDI_ICON_RA             ICON    DISCARDABLE     "res\\ico00072.ico"
+IDI_ICON_AC             ICON    DISCARDABLE     "res\\ico00073.ico"
+IDI_ICON_TL             ICON    DISCARDABLE     "res\\ico00074.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+    SEPARATOR
+    BUTTON      ID_TOOLS_ROTATEATOMS
+    BUTTON      ID_TOOLS_SELECTATOMS
+    BUTTON      ID_VIEW_WYCKOFF
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM SEPARATOR
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Bonds",                       ID_VIEW_BONDS
+        MENUITEM "Cell Borders",                ID_VIEW_CELLBORDERS
+        MENUITEM "Wyckoff coordinates",         ID_VIEW_WYCKOFF
+        MENUITEM SEPARATOR
+        MENUITEM "Calculation results",         ID_VIEW_OUTPUT
+    END
+    POPUP "Plot"
+    BEGIN
+        MENUITEM "Unit cells...",               ID_PLOT_UNITCELL
+        MENUITEM "Lattice...",                  ID_PLOT_LATTICE
+        MENUITEM SEPARATOR
+        MENUITEM "Add atom...",                 ID_PLOT_ATOM
+        MENUITEM "Remove atom...",              ID_PLOT_ATOM_REMOVE
+        POPUP "Isosurfaces", GRAYED
+        BEGIN
+            MENUITEM "Electrostatic potential...",  ID_ISOSURFACES
+        END
+    END
+    POPUP "Compute"
+    BEGIN
+        MENUITEM "Try to use the point symmetry of the cluster", 
+                                                ID_TOOLS_SYMMETRY
+        MENUITEM "Electrostatic potential on selected atoms", 
+                                                ID_TOOLS_POTENTIAL_ON_ATOMS
+        MENUITEM "Optimize point charges",      ID_OPTIMIZE
+        MENUITEM SEPARATOR
+        MENUITEM "Decompose into irreducible representations", 
+                                                ID_COMPUTE_DECOMPOSE
+    END
+    POPUP "&Tools"
+    BEGIN
+        POPUP "&Setup"
+        BEGIN
+            MENUITEM "Crystal &Lattice...",         ID_TOOLS_SETUP_LATTICE
+            POPUP "Point &Charge Distribution Function f(r,d) ="
+            BEGIN
+                MENUITEM "1,r<d && 0,r>d",              ID_TOOLS_PCDF_1
+                MENUITEM "d-r,r<d && 0,r>d",            ID_TOOLS_PCDF_2
+                MENUITEM "(d-r)^2,r<d && 0,r>d",        ID_TOOLS_PCDF_3
+                MENUITEM "(d-r)^3,r<d && 0,r>d",        ID_TOOLS_PCDF_4
+                MENUITEM "(r^2+d^2)^(-2)",              ID_TOOLS_PCDF_5
+                MENUITEM "exp[-(r/d)^2]",               ID_TOOLS_PCDF_6
+                MENUITEM "exp[-(r/d)]",                 ID_TOOLS_PCDF_7
+                MENUITEM "r exp[-(r/d)]",               ID_TOOLS_PCDF_8
+                MENUITEM "r^2 exp[-(r/d)]",             ID_TOOLS_PCDF_9
+            END
+            MENUITEM "&Fitting of the electrostatic potential...", 
+                                                    ID_TOOLS_SETUP_OPTIMIZATION
+
+        END
+        MENUITEM "Select atoms",                ID_TOOLS_SELECTATOMS
+        MENUITEM "Unselect All atoms",          ID_TOOLS_UNSELECTALLATOMS
+        MENUITEM "Rotate atoms",                ID_TOOLS_ROTATEATOMS
+        POPUP "Extend the lattice as"
+        BEGIN
+            MENUITEM "Parallelepiped...",           ID_TOOLS_EXTEND_NORMAL
+            MENUITEM "Sphere...",                   ID_TOOLS_EXTEND_SPHERE
+            MENUITEM "Delete extension",            ID_TOOLS_EXTEND_DELETE
+        END
+        MENUITEM "&Options...",                 ID_TOOLS_OPTIONS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About Madelung...",          ID_APP_ABOUT
+    END
+END
+
+IDR_START MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Tools"
+    BEGIN
+        POPUP "&Setup"
+        BEGIN
+            MENUITEM "Crystal &Lattice...",         ID_TOOLS_SETUP_LATTICE
+        END
+        MENUITEM "&Options...",                 ID_TOOLS_OPTIONS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About Madelung...",          ID_APP_ABOUT
+    END
+END
+
+IDR_MAINFRAME_CANCEL MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM SEPARATOR
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Bonds",                       ID_VIEW_BONDS
+        MENUITEM "Cell Borders",                ID_VIEW_CELLBORDERS
+        MENUITEM "Wyckoff coordinates",         ID_VIEW_WYCKOFF
+    END
+    POPUP "Plot", GRAYED
+    BEGIN
+        MENUITEM "Unit cells...",               ID_PLOT_UNITCELL
+        MENUITEM "Lattice...",                  ID_PLOT_LATTICE
+        MENUITEM SEPARATOR
+        POPUP "Isosurfaces", GRAYED
+        BEGIN
+            MENUITEM "Electrostatic potential...",  ID_ISOSURFACES
+        END
+    END
+    POPUP "Compute", GRAYED
+    BEGIN
+        MENUITEM "Electrostatic potential on selected atoms", 
+                                                ID_TOOLS_POTENTIAL_ON_ATOMS
+    END
+    MENUITEM "&Cancel",                     ID_CANCEL_CALCULATION
+    POPUP "&Tools"
+    BEGIN
+        POPUP "&Setup"
+        BEGIN
+            MENUITEM "Crystal &Lattice...",         ID_TOOLS_SETUP_LATTICE
+            POPUP "Point &Charge Distribution Function f(r,d) ="
+            BEGIN
+                MENUITEM "1,r<d && 0,r>d",              ID_TOOLS_PCDF_1
+                MENUITEM "d-r,r<d && 0,r>d",            ID_TOOLS_PCDF_2
+                MENUITEM "(d-r)^2,r<d && 0,r>d",        ID_TOOLS_PCDF_3
+                MENUITEM "(d-r)^3,r<d && 0,r>d",        ID_TOOLS_PCDF_4
+                MENUITEM "(r^2+d^2)^(-2)",              ID_TOOLS_PCDF_5
+                MENUITEM "exp[-(r/d)^2]",               ID_TOOLS_PCDF_6
+                MENUITEM "exp[-(r/d)]",                 ID_TOOLS_PCDF_7
+                MENUITEM "r exp[-(r/d)]",               ID_TOOLS_PCDF_8
+                MENUITEM "r^2 exp[-(r/d)]",             ID_TOOLS_PCDF_9
+            END
+            MENUITEM "&Fitting of the electrostatic potential...", 
+                                                    ID_TOOLS_SETUP_OPTIMIZATION
+
+        END
+        MENUITEM "Select atoms",                ID_TOOLS_SELECTATOMS
+        MENUITEM "Unselect All atoms",          ID_TOOLS_UNSELECTALLATOMS
+        MENUITEM "Rotate atoms",                ID_TOOLS_ROTATEATOMS
+        POPUP "Extend the lattice as"
+        BEGIN
+            MENUITEM "Parallelepiped...",           ID_TOOLS_EXTEND_NORMAL
+            MENUITEM "Sphere...",                   ID_TOOLS_EXTEND_SPHERE
+            MENUITEM "Delete extension",            ID_TOOLS_EXTEND_DELETE
+        END
+        MENUITEM "&Options...",                 ID_TOOLS_OPTIONS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About Madelung...",          ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Select atom",                 IDR_POPUP_SELECTATOM
+        MENUITEM "Unselect atom",               IDR_POPUP_UNSELECTATOM
+        MENUITEM SEPARATOR
+        MENUITEM "Hide atom",                   IDR_POPUP_HIDE
+        MENUITEM "Hide all atoms in this position", IDR_POPUP_HIDEALL
+        MENUITEM "Show all atoms",              IDR_POPUP_SHOWALL
+        MENUITEM SEPARATOR
+        MENUITEM "Hide layer at X",             IDR_POPUP_HIDELAYER_X
+        MENUITEM "Hide layer at Y",             IDR_POPUP_HIDELAYER_Y
+        MENUITEM "Hide layer at Z",             IDR_POPUP_HIDELAYER_Z
+    END
+    POPUP ""
+    BEGIN
+        MENUITEM "Select atom",                 ID_POPUP_SELECT
+        MENUITEM "Deselect atom",               ID_POPUP_DESELECT
+        MENUITEM SEPARATOR
+        MENUITEM "Hide atom",                   ID_POPUP_HIDE
+        MENUITEM "Hide all atoms in this position", ID_POPUP_HIDEALL
+        MENUITEM SEPARATOR
+        MENUITEM "Hide layer at X",             IDR_POPUP_HIDELAYER_X
+        MENUITEM "Hide layer at Y",             IDR_POPUP_HIDELAYER_Y
+        MENUITEM "Hide layer at Z",             IDR_POPUP_HIDELAYER_Z
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Madelung"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Madelung Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2000",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDR_MAINFRAME DIALOG DISCARDABLE  0, 0, 330, 16
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "TODO: layout dialog bar ",IDC_STATIC,12,4,300,8
+END
+
+IDD_PP_SPACE_GROUP DIALOG DISCARDABLE  0, 0, 400, 186
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Space Group"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Short Hermann-Mauguin",IDC_RADIO_SPGROUPS_SHORT_HM,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,15,
+                    18,93,10
+    CONTROL         "Full Hermann-Mauguin",IDC_RADIO_SPGROUPS_FULL_HM,"Button",
+                    BS_AUTORADIOBUTTON,15,31,85,10
+    CONTROL         "Schoenflies",IDC_RADIO_SPGROUPS_SCHOENFLIES,"Button",
+                    BS_AUTORADIOBUTTON,15,46,76,8
+    CONTROL         "Number",IDC_RADIO_SPGROUPS_NUMBER,"Button",
+                    BS_AUTORADIOBUTTON,15,59,43,10
+    EDITTEXT        IDC_EDIT_SG,15,81,87,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Load",IDC_BUTTON_SGSETUP_LOAD,15,102,87,14
+    EDITTEXT        IDC_EDIT_A,88,142,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_B,136,142,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_C,183,142,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ALPHA,88,159,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BETA,136,159,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GAMMA,183,159,44,12,ES_AUTOHSCROLL
+    GROUPBOX        "Search",IDC_STATIC_SPACE_GROUP,7,4,104,120
+    CONTROL         "Hall",IDC_RADIO_SPGROUPS_HALL,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED,71,59,28,10
+    GROUPBOX        "International Tables for Crystallography Vol. A (1983)",
+                    IDC_STATIC_SGSETUP_INFO,119,4,273,120
+    RTEXT           "Number :",IDC_STATIC_SGSETUP_SG,160,27,48,8
+    LTEXT           "Space group number",IDC_STATIC_SGSETUP_SGNUMBER,227,27,
+                    163,8
+    RTEXT           "Short :",IDC_STATIC,186,37,22,8
+    LTEXT           "short symbol",IDC_STATIC_SGSETUP_SHORT_VALUE,227,37,163,
+                    8
+    RTEXT           "Full :",IDC_STATIC,192,47,16,8
+    LTEXT           "full symbol",IDC_STATIC_SGSETUP_LONG_VALUE,227,47,162,8
+    RTEXT           "Schoenflies :",IDC_STATIC,166,57,42,8
+    LTEXT           "schoenflies symbol",IDC_STATIC_SGSETUP_SCH_VALUE,227,57,
+                    162,8
+    RTEXT           "Hall Symbol :",IDC_STATIC_SGSETUP_HALLSYMBOL,166,67,42,
+                    8
+    LTEXT           "hall symbol",IDC_STATIC_HALLSYMBOLVALUE,227,67,163,8
+    RTEXT           "Point Group :",IDC_STATIC_SGSETUP_POINTGROUP,166,77,42,
+                    8
+    LTEXT           "point group symbol",IDC_STATIC_SGSETUP_PGVALUE,227,77,
+                    162,8
+    RTEXT           "Crystal System :",IDC_STATIC_SGSETUP_CRYSYST,158,87,50,
+                    8
+    LTEXT           "crystal system symbol",IDC_STATIC_SGSETUP_CRYSYSTVALUE,
+                    227,87,162,8
+    RTEXT           "Lattice Symbol :",IDC_STATIC_SGSETUP_LATTICESYMBOL,157,
+                    97,51,8
+    LTEXT           "primitive or centered",
+                    IDC_STATIC_SGSETUP_LATTICESYMBOLVALUE,227,97,163,8
+    GROUPBOX        "Unit Cell Parameters (in Angstroms and Degrees)",
+                    IDC_STATIC_UNIT_CELL_PARAMETERS,7,132,385,44
+    LTEXT           "a, b, c =",IDC_ABC,38,145,34,12,NOT WS_GROUP
+    CTEXT           "relations",IDC_STATIC_SGSETUP_ABC_RESTRICTIONS,236,144,
+                    154,8
+    LTEXT           "Alpha, Beta, Gamma =",IDC_CLS_STATIC_ANGLES,12,160,76,
+                    12
+    CTEXT           "relations",IDC_STATIC_SGSETUP_ANGLE_RESTRICTIONS,236,
+                    160,154,8
+    RTEXT           "Additional Info :",IDC_STATIC_SGSETUP_ADDITIONALINFO,
+                    158,107,50,8
+    LTEXT           "additional info",IDC_STATIC_SGSETUP_ADDITIONALINFOVALUE,
+                    227,106,162,8
+    RTEXT           "Page in Tables :",IDC_STATIC_SGSETUP_PAGEINTABLES,124,
+                    17,84,8
+    LTEXT           "Space group number",IDC_STATIC_SGSETUP_PAGENUMBER,227,
+                    17,163,8
+END
+
+IDD_PP_ATOMSINUNITCELL DIALOG DISCARDABLE  0, 0, 400, 186
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "Atoms in unit cell"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Add...",IDC_PP_ATOMSINUNITCELL_ADD,32,6,75,15
+    PUSHBUTTON      "Edit...",IDC_PP_ATOMSINUNITCELL_EDIT,118,6,75,15
+    PUSHBUTTON      "Remove...",IDC_PP_EDITATOMS_REMOVEATOM,203,6,75,15
+    PUSHBUTTON      "Remove All...",IDC_PP_EDITATOMS_REMOVEALL,288,6,75,15
+    LTEXT           "Atom coordinates are in units of the lattice cell",
+                    IDC_STATIC,124,27,151,11
+    CONTROL         "List4",IDC_PP_ATOMSINUNITCELL_LISTCONTROL,"SysListView32",
+                    LVS_REPORT | LVS_AUTOARRANGE | WS_BORDER | WS_TABSTOP,7,
+                    42,386,140
+END
+
+IDD_DIALOG_EDIT_ATOM DIALOG DISCARDABLE  0, 0, 300, 255
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit atom or molecule"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Object coordinates in the units of a,b,c axes",
+                    IDC_EDITATOMS_STATIC_POSITIONS,7,193,188,33
+    LTEXT           "x, y, z =",IDC_STATIC_XYZ,13,208,30,11,NOT WS_GROUP
+    EDITTEXT        IDC_EDITATOMS_X,44,206,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITATOMS_Y,92,206,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITATOMS_Z,140,206,44,12,ES_AUTOHSCROLL
+    GROUPBOX        "Atom Charge (e = -1)",IDC_EDITATOMS_STATIC_CHARGE,200,
+                    193,92,34
+    EDITTEXT        IDC_EDITATOMS_CHARGE,225,206,44,12,ES_AUTOHSCROLL
+    CONTROL         "H",IDC_RADIO_H,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | WS_GROUP | WS_TABSTOP,7,8,15,15
+    CONTROL         "He",IDC_RADIO_HE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,277,8,15,15
+    CONTROL         "Li",IDC_RADIO_LI,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,7,24,15,15
+    CONTROL         "Be",IDC_RADIO_BE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,22,24,15,15
+    CONTROL         "B",IDC_RADIO_B,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,202,24,15,15
+    CONTROL         "C",IDC_RADIO_C,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,217,24,15,15
+    CONTROL         "N",IDC_RADIO_N,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,232,24,15,15
+    CONTROL         "O",IDC_RADIO_O,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,247,24,15,15
+    CONTROL         "F",IDC_RADIO_F,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,262,24,15,15
+    CONTROL         "Ne",IDC_RADIO_NE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,277,24,15,15
+    CONTROL         "Na",IDC_RADIO_NA,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,7,38,15,15
+    CONTROL         "Mg",IDC_RADIO_MG,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,22,38,15,15
+    CONTROL         "Al",IDC_RADIO_AL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,202,38,15,15
+    CONTROL         "Si",IDC_RADIO_SI,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,217,38,15,15
+    CONTROL         "P",IDC_RADIO_P,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,232,38,15,15
+    CONTROL         "S",IDC_RADIO_S,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,247,38,15,15
+    CONTROL         "Cl",IDC_RADIO_CL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,262,38,15,15
+    CONTROL         "Ar",IDC_RADIO_AR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,277,38,15,15
+    CONTROL         "K",IDC_RADIO_K,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,7,54,15,15
+    CONTROL         "Ca",IDC_RADIO_CA,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,22,54,15,15
+    CONTROL         "Sc",IDC_RADIO_SC,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,52,54,15,15
+    CONTROL         "Ti",IDC_RADIO_TI,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,67,54,15,15
+    CONTROL         "V",IDC_RADIO_V,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,82,54,15,15
+    CONTROL         "Cr",IDC_RADIO_CR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,97,54,15,15
+    CONTROL         "Mn",IDC_RADIO_MN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,112,54,15,15
+    CONTROL         "Fe",IDC_RADIO_FE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,127,54,15,15
+    CONTROL         "Co",IDC_RADIO_CO,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,142,54,15,15
+    CONTROL         "Ni",IDC_RADIO_NI,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,157,54,15,15
+    CONTROL         "Cu",IDC_RADIO_CU,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,172,54,15,15
+    CONTROL         "Zn",IDC_RADIO_ZN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,187,54,15,15
+    CONTROL         "Ga",IDC_RADIO_GA,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,202,54,15,15
+    CONTROL         "Ge",IDC_RADIO_GE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,217,54,15,15
+    CONTROL         "As",IDC_RADIO_AS,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,232,54,15,15
+    CONTROL         "Se",IDC_RADIO_SE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,247,54,15,15
+    CONTROL         "Br",IDC_RADIO_BR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,262,54,15,15
+    CONTROL         "Kr",IDC_RADIO_KR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,277,54,15,15
+    CONTROL         "Rb",IDC_RADIO_RB,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,7,69,15,15
+    CONTROL         "Sr",IDC_RADIO_SR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,22,69,15,15
+    CONTROL         "Y",IDC_RADIO_Y,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,52,69,15,15
+    CONTROL         "Zr",IDC_RADIO_ZR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,67,69,15,15
+    CONTROL         "Nb",IDC_RADIO_NB,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,82,69,15,15
+    CONTROL         "Mo",IDC_RADIO_MO,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,97,69,15,15
+    CONTROL         "Tc",IDC_RADIO_TC,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,112,69,15,15
+    CONTROL         "Ru",IDC_RADIO_RU,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,127,69,15,15
+    CONTROL         "Rh",IDC_RADIO_RH,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,142,69,15,15
+    CONTROL         "Pd",IDC_RADIO_PD,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,157,69,15,15
+    CONTROL         "Ag",IDC_RADIO_AG,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,172,69,15,15
+    CONTROL         "Cd",IDC_RADIO_CD,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,187,69,15,15
+    CONTROL         "In",IDC_RADIO_IN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,202,69,15,15
+    CONTROL         "Sn",IDC_RADIO_SN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,217,69,15,15
+    CONTROL         "Sb",IDC_RADIO_SB,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,232,69,15,15
+    CONTROL         "Te",IDC_RADIO_TE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,247,69,15,15
+    CONTROL         "I",IDC_RADIO_I,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,262,69,15,15
+    CONTROL         "Xe",IDC_RADIO_XE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,277,69,15,15
+    CONTROL         "Cs",IDC_RADIO_CS,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,7,83,15,15
+    CONTROL         "Ba",IDC_RADIO_BA,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,22,83,15,15
+    CONTROL         "La",IDC_RADIO_LA,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,37,83,15,15
+    CONTROL         "Lu",IDC_RADIO_LU,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,52,83,15,15
+    CONTROL         "Hf",IDC_RADIO_HF,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,67,83,15,15
+    CONTROL         "Ta",IDC_RADIO_TA,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,82,83,15,15
+    CONTROL         "W",IDC_RADIO_W,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,97,83,15,15
+    CONTROL         "Re",IDC_RADIO_RE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,112,83,15,15
+    CONTROL         "Os",IDC_RADIO_OS,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,127,83,15,15
+    CONTROL         "Ir",IDC_RADIO_IR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,142,83,15,15
+    CONTROL         "Pt",IDC_RADIO_PT,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,157,83,15,15
+    CONTROL         "Au",IDC_RADIO_AU,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,172,83,15,15
+    CONTROL         "Hg",IDC_RADIO_HG,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,187,83,15,15
+    CONTROL         "Tl",IDC_RADIO_TL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,202,83,15,15
+    CONTROL         "Pb",IDC_RADIO_PB,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,217,83,15,15
+    CONTROL         "Bi",IDC_RADIO_BI,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,232,83,15,15
+    CONTROL         "Po",IDC_RADIO_PO,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,247,83,15,15
+    CONTROL         "At",IDC_RADIO_AT,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,262,83,15,15
+    CONTROL         "Rn",IDC_RADIO_RN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,277,83,15,15
+    CONTROL         "Fr",IDC_RADIO_FR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,7,99,15,15
+    CONTROL         "Ra",IDC_RADIO_RA,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,22,99,15,15
+    CONTROL         "Ac",IDC_RADIO_AC,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,37,99,15,15
+    GROUPBOX        "Wyckoff position in the unit cell",
+                    IDC_STATIC_EDITATOM_WK,7,121,285,69
+    LISTBOX         IDC_LIST_EDITATOM_WYCK,21,139,30,40,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Multiplicity :",IDC_STATIC,76,147,37,8
+    LTEXT           "M",IDC_STATIC_EDITATOM_WYMULT,121,147,41,8
+    RTEXT           "Site Symmetry :",IDC_STATIC,64,161,49,8
+    LTEXT           "mmm",IDC_STATIC_EDITATOM_WYSYMM,121,161,45,8
+    PUSHBUTTON      "View Coordinates",IDC_EDITATOM_VIEWCOORDINATES,170,148,
+                    98,14
+    PUSHBUTTON      "OK",IDC_EDITATOM_BUTTON_OK,102,233,45,15
+    PUSHBUTTON      "Cancel",IDC_EDITATOM_BUTTON_CANCEL,162,233,45,15
+END
+
+IDD_PLOT_UNITCELLS DIALOG DISCARDABLE  0, 0, 116, 125
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Unit Cells"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Enter the number of unit cells you want to plot along crystal axes",
+                    IDC_STATIC,3,4,109,20
+    LTEXT           "along 'a' axis",IDC_STATIC,11,33,42,10
+    EDITTEXT        IDC_EDIT_UNITCELLS_A,63,31,27,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_UNITCELLS_A,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,90,31,11,
+                    14
+    LTEXT           "along 'b' axis",IDC_STATIC,11,53,42,10
+    EDITTEXT        IDC_EDIT_UNITCELLS_B,63,51,27,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_UNITCELLS_B,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,90,51,11,
+                    14
+    LTEXT           "along 'c' axis",IDC_STATIC,11,73,42,10
+    EDITTEXT        IDC_EDIT_UNITCELLS_C,63,71,27,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_UNITCELLS_C,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,90,71,11,
+                    14
+    PUSHBUTTON      "OK",IDC_BUTTON_UNITCELLS_OK,4,99,51,15
+    PUSHBUTTON      "Cancel",IDC_BUTTON_UNITCELLS_CANCEL,60,99,51,15
+END
+
+IDD_DIALOG_LATTICE_EXTEND DIALOG DISCARDABLE  0, 0, 259, 215
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Parallelepiped setup"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Now you have a cluster of few unit cells in the program window. All selected atoms will be left for explicit quantum chemical calculation. The rest of the lattice will be treated as point charges. Their values can be optimized to reproduce the electric fie&?",
+                    IDC_STATIC,12,10,230,59,SS_SUNKEN
+    GROUPBOX        "Extend the initial cluster by appending it with new unit cells",
+                    IDC_STATIC_COMPLEMENT,11,82,232,107,BS_CENTER | BS_FLAT
+    CTEXT           "Specify the number of new unit cells which will be added symmetrically to the initial cluster along the unit cell vectors",
+                    IDC_STATIC_APPEND_A,28,97,198,19,SS_SUNKEN
+    GROUPBOX        "a",IDC_STATIC,16,117,70,36
+    EDITTEXT        IDC_EDIT_EXTEND_A,28,130,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_EXTEND_A,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ARROWKEYS,67,130,11,14
+    GROUPBOX        "b",IDC_STATIC,92,117,70,36
+    EDITTEXT        IDC_EDIT_EXTEND_B,104,130,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_SPIN_EXTEND_B,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ARROWKEYS,143,130,11,14
+    GROUPBOX        "c",IDC_STATIC,168,117,70,36
+    EDITTEXT        IDC_EDIT_EXTEND_C,180,130,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin3",IDC_SPIN_EXTEND_C,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ARROWKEYS,219,130,11,14
+    PUSHBUTTON      "OK",IDC_BUTTON_EXTEND_OK,58,194,50,14
+    PUSHBUTTON      "Cancel",IDC_BUTTON_EXTEND_CANCEL,137,194,50,14
+    CONTROL         "Render the extension (may be time consuming)",
+                    IDC_EXTEND_PARAL_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,48,157,163,10
+    LTEXT           "",IDC_STATIC_PARAL_SYMMETRY,42,172,170,10
+END
+
+IDD_DIALOG_LATTICE_EXTEND_SPHERE DIALOG DISCARDABLE  0, 0, 259, 213
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sphere setup"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Now you have a cluster of few unit cells in the program window. All selected atoms will be left for explicit quantum chemical calculation. The rest of the lattice will be treated as point charges. Their values can be optimized to reproduce the electric fie&?",
+                    IDC_STATIC,12,10,230,59,SS_SUNKEN
+    GROUPBOX        "Extend the initial cluster by appending it with new unit cells",
+                    IDC_STATIC_COMPLEMENT,11,82,232,103,BS_CENTER | BS_FLAT
+    CTEXT           "Here you can specify the number of additional cell layers wrapping the initial cluster",
+                    IDC_STATIC_APPEND_A,28,107,120,30,SS_SUNKEN
+    GROUPBOX        "Number of layers",IDC_STATIC,161,102,70,36
+    EDITTEXT        IDC_EDIT_SPHERE_RADIUS,173,115,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_SPIN_SPHERE_RADIUS,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ARROWKEYS,213,115,11,14
+    PUSHBUTTON      "OK",IDC_BUTTON_SPHERE_OK,65,192,50,14
+    PUSHBUTTON      "Cancel",IDC_BUTTON_SPHERE_CANCEL,141,192,50,14
+    CONTROL         "Render the extension (may be time consuming)",
+                    IDC_EXTEND_SPHERE_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,48,149,163,10
+    LTEXT           "",IDC_STATIC_SPHERE_SYMMETRY,38,165,176,11
+END
+
+IDD_ATOMWINDOW DIALOG DISCARDABLE  0, 0, 251, 234
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Property Page"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "a",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,
+                    90,20,11,12
+    CONTROL         "b",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,
+                    101,20,12,12
+    CONTROL         "c",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,
+                    113,20,12,12
+    CONTROL         "d",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,
+                    125,20,12,12
+    CONTROL         "e",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,
+                    137,20,12,12
+    GROUPBOX        "Select the Wyckoff symbol for coordinate lookup",
+                    IDC_STATIC,4,6,243,224,BS_CENTER
+    CONTROL         "",IDC_RICHEDIT1,"RICHEDIT",ES_AUTOHSCROLL | WS_BORDER | 
+                    WS_TABSTOP,13,39,224,184
+END
+
+IDD_DIALOG_SYMMETRY DIALOG DISCARDABLE  0, 0, 400, 245
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Try to use symmetry"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,146,35,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,207,35,50,14
+    CTEXT           "Static",IDC_SYMMETRY_STATIC,10,8,383,10
+    CTEXT           "Continue to apply symmetry?",IDC_STATIC,155,23,95,11
+    CONTROL         "List1",IDC_SYMMETRY_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,57,386,181
+END
+
+IDD_ADD_ATOM_TO_PLOT DIALOG DISCARDABLE  0, 0, 186, 84
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add/remove an atom to plot"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,39,55,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,96,55,50,14
+    LTEXT           "Enter the number of atom",IDC_STATIC,52,15,86,12
+    EDITTEXT        IDC_ADD_ATOM_EDIT,59,30,65,13,ES_AUTOHSCROLL
+END
+
+IDD_EDITMOLECULE DIALOG DISCARDABLE  0, 0, 348, 302
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit molecule"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Name",IDC_STATIC,57,14,20,8
+    EDITTEXT        IDC_EDITMOLECULE_NAME,83,11,192,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add atom...",IDC_EDITMOLECULE_ADD,8,33,75,15
+    PUSHBUTTON      "Edit atom...",IDC_EDITMOLECULE_EDIT,94,33,75,15
+    PUSHBUTTON      "Remove atom...",IDC_EDITMOLECULE_REMOVEATOM,179,33,75,
+                    15
+    PUSHBUTTON      "Remove All...",IDC_EDITMOLECULE_REMOVEALL,264,33,75,15
+    LTEXT           "Cartesian coordinates of atoms in the local coordinate system of the molecule",
+                    IDC_STATIC,52,55,247,11
+    CONTROL         "List4",IDC_EDITMOLECULE_LISTCONTROL,"SysListView32",
+                    LVS_REPORT | LVS_AUTOARRANGE | WS_BORDER | WS_TABSTOP,7,
+                    71,334,129
+    GROUPBOX        "Coordinates of the center of molecule in the lattice (angstroms)",
+                    IDC_STATIC,7,204,334,34
+    LTEXT           "X",IDC_STATIC,67,218,8,8
+    EDITTEXT        IDC_EDITMOLECULE_X,80,216,40,14,ES_AUTOHSCROLL
+    LTEXT           "Y",IDC_STATIC,135,219,8,8
+    EDITTEXT        IDC_EDITMOLECULE_Y,148,216,40,14,ES_AUTOHSCROLL
+    LTEXT           "Z",IDC_STATIC,210,219,8,8
+    EDITTEXT        IDC_EDITMOLECULE_Z,223,216,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "Angles between the coordinate axes of molecule coordinate system and lattice axes (deg)",
+                    IDC_STATIC,7,241,334,34
+    LTEXT           "Alpha",IDC_STATIC,56,255,21,8
+    EDITTEXT        IDC_EDITMOLECULE_ALPHA,80,253,40,14,ES_AUTOHSCROLL
+    LTEXT           "Beta",IDC_STATIC,127,256,18,8
+    EDITTEXT        IDC_EDITMOLECULE_BETA,148,253,40,14,ES_AUTOHSCROLL
+    LTEXT           "Gamma",IDC_STATIC,193,256,25,8
+    EDITTEXT        IDC_EDITMOLECULE_GAMMA,224,253,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",IDOK,114,279,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,176,279,50,14
+END
+
+IDD_PP_MOLECULESINUNITCELL DIALOG DISCARDABLE  0, 0, 400, 186
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Molecules in unit cell"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List4",IDC_PP_MOLECULESINUNITCELL_LISTCONTROL,
+                    "SysListView32",LVS_REPORT | LVS_AUTOARRANGE | WS_BORDER | 
+                    WS_TABSTOP,7,42,386,140
+    PUSHBUTTON      "Add...",IDC_PP_MOLECULESINUNITCELL_ADD,32,6,75,15
+    PUSHBUTTON      "Edit...",IDC_PP_MOLECULESINUNITCELL_EDIT,118,6,75,15
+    PUSHBUTTON      "Remove...",IDC_PP_MOLECULESINUNITCELL_REMOVE,203,6,75,
+                    15
+    PUSHBUTTON      "Remove All...",IDC_PP_MOLECULESINUNITCELL_REMOVEALL,288,
+                    6,75,15
+END
+
+IDD_EDIT_ATOMS_IN_MOLECULE DIALOG DISCARDABLE  0, 0, 300, 183
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Atoms in molecule"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Atom coordinates in the local coordinate system of molecule",
+                    IDC_EDITATOMS_STATIC_POSITIONS,7,122,200,33
+    LTEXT           "x, y, z =",IDC_STATIC_XYZ,13,137,30,11,NOT WS_GROUP
+    EDITTEXT        IDC_EDITATOMS_X,44,135,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITATOMS_Y,92,135,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITATOMS_Z,140,135,44,12,ES_AUTOHSCROLL
+    GROUPBOX        "Atom Charge (e = -1)",IDC_EDITATOMS_STATIC_CHARGE,216,
+                    122,76,34
+    EDITTEXT        IDC_EDITATOMS_CHARGE,225,135,44,12,ES_AUTOHSCROLL
+    CONTROL         "H",IDC_RADIO_H,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | WS_GROUP | WS_TABSTOP,7,7,15,15
+    CONTROL         "He",IDC_RADIO_HE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,278,7,15,15
+    CONTROL         "Li",IDC_RADIO_LI,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,7,23,15,15
+    CONTROL         "Be",IDC_RADIO_BE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,22,23,15,15
+    CONTROL         "B",IDC_RADIO_B,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,202,23,15,15
+    CONTROL         "C",IDC_RADIO_C,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,217,23,15,15
+    CONTROL         "N",IDC_RADIO_N,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,232,23,15,15
+    CONTROL         "O",IDC_RADIO_O,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,247,23,15,15
+    CONTROL         "F",IDC_RADIO_F,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,262,23,15,15
+    CONTROL         "Ne",IDC_RADIO_NE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,278,23,15,15
+    CONTROL         "Na",IDC_RADIO_NA,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,7,37,15,15
+    CONTROL         "Mg",IDC_RADIO_MG,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,22,37,15,15
+    CONTROL         "Al",IDC_RADIO_AL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,202,37,15,15
+    CONTROL         "Si",IDC_RADIO_SI,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,217,37,15,15
+    CONTROL         "P",IDC_RADIO_P,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,232,37,15,15
+    CONTROL         "S",IDC_RADIO_S,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,247,37,15,15
+    CONTROL         "Cl",IDC_RADIO_CL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,262,37,15,15
+    CONTROL         "Ar",IDC_RADIO_AR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,278,37,15,15
+    CONTROL         "K",IDC_RADIO_K,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,7,53,15,15
+    CONTROL         "Ca",IDC_RADIO_CA,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,22,53,15,15
+    CONTROL         "Sc",IDC_RADIO_SC,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,52,53,15,15
+    CONTROL         "Ti",IDC_RADIO_TI,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,67,53,15,15
+    CONTROL         "V",IDC_RADIO_V,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,82,53,15,15
+    CONTROL         "Cr",IDC_RADIO_CR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,97,53,15,15
+    CONTROL         "Mn",IDC_RADIO_MN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,112,53,15,15
+    CONTROL         "Fe",IDC_RADIO_FE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,127,53,15,15
+    CONTROL         "Co",IDC_RADIO_CO,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,142,53,15,15
+    CONTROL         "Ni",IDC_RADIO_NI,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,157,53,15,15
+    CONTROL         "Cu",IDC_RADIO_CU,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,172,53,15,15
+    CONTROL         "Zn",IDC_RADIO_ZN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,187,53,15,15
+    CONTROL         "Ga",IDC_RADIO_GA,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,202,53,15,15
+    CONTROL         "Ge",IDC_RADIO_GE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,217,53,15,15
+    CONTROL         "As",IDC_RADIO_AS,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,232,53,15,15
+    CONTROL         "Se",IDC_RADIO_SE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,247,53,15,15
+    CONTROL         "Br",IDC_RADIO_BR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,262,53,15,15
+    CONTROL         "Kr",IDC_RADIO_KR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,278,53,15,15
+    CONTROL         "Rb",IDC_RADIO_RB,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,7,68,15,15
+    CONTROL         "Sr",IDC_RADIO_SR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,22,68,15,15
+    CONTROL         "Y",IDC_RADIO_Y,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,52,68,15,15
+    CONTROL         "Zr",IDC_RADIO_ZR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,67,68,15,15
+    CONTROL         "Nb",IDC_RADIO_NB,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,82,68,15,15
+    CONTROL         "Mo",IDC_RADIO_MO,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,97,68,15,15
+    CONTROL         "Tc",IDC_RADIO_TC,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,112,68,15,15
+    CONTROL         "Ru",IDC_RADIO_RU,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,127,68,15,15
+    CONTROL         "Rh",IDC_RADIO_RH,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,142,68,15,15
+    CONTROL         "Pd",IDC_RADIO_PD,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,157,68,15,15
+    CONTROL         "Ag",IDC_RADIO_AG,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,172,68,15,15
+    CONTROL         "Cd",IDC_RADIO_CD,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,187,68,15,15
+    CONTROL         "In",IDC_RADIO_IN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,202,68,15,15
+    CONTROL         "Sn",IDC_RADIO_SN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,217,68,15,15
+    CONTROL         "Sb",IDC_RADIO_SB,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,232,68,15,15
+    CONTROL         "Te",IDC_RADIO_TE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,247,68,15,15
+    CONTROL         "I",IDC_RADIO_I,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,262,68,15,15
+    CONTROL         "Xe",IDC_RADIO_XE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,278,68,15,15
+    CONTROL         "Cs",IDC_RADIO_CS,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,7,82,15,15
+    CONTROL         "Ba",IDC_RADIO_BA,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,22,82,15,15
+    CONTROL         "La",IDC_RADIO_LA,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,37,82,15,15
+    CONTROL         "Lu",IDC_RADIO_LU,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,52,82,15,15
+    CONTROL         "Hf",IDC_RADIO_HF,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,67,82,15,15
+    CONTROL         "Ta",IDC_RADIO_TA,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,82,82,15,15
+    CONTROL         "W",IDC_RADIO_W,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,97,82,15,15
+    CONTROL         "Re",IDC_RADIO_RE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,112,82,15,15
+    CONTROL         "Os",IDC_RADIO_OS,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,127,82,15,15
+    CONTROL         "Ir",IDC_RADIO_IR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,142,82,15,15
+    CONTROL         "Pt",IDC_RADIO_PT,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,157,82,15,15
+    CONTROL         "Au",IDC_RADIO_AU,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,172,82,15,15
+    CONTROL         "Hg",IDC_RADIO_HG,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,187,82,15,15
+    CONTROL         "Tl",IDC_RADIO_TL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,202,82,15,15
+    CONTROL         "Pb",IDC_RADIO_PB,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,217,82,15,15
+    CONTROL         "Bi",IDC_RADIO_BI,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,232,82,15,15
+    CONTROL         "Po",IDC_RADIO_PO,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,247,82,15,15
+    CONTROL         "At",IDC_RADIO_AT,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,262,82,15,15
+    CONTROL         "Rn",IDC_RADIO_RN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,278,82,15,15
+    CONTROL         "Fr",IDC_RADIO_FR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,7,99,15,15
+    CONTROL         "Ra",IDC_RADIO_RA,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,22,99,15,15
+    CONTROL         "Ac",IDC_RADIO_AC,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,37,99,15,15
+    PUSHBUTTON      "OK",IDOK,98,162,45,15
+    PUSHBUTTON      "Cancel",IDCANCEL,158,162,45,15
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Madelung MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Madelung\0"
+            VALUE "LegalCopyright", "Copyright (C) 2000\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Madelung.EXE\0"
+            VALUE "ProductName", "Madelung Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_PP_SPACE_GROUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 393
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_PP_ATOMSINUNITCELL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 393
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_DIALOG_EDIT_ATOM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_PLOT_UNITCELLS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 109
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_DIALOG_LATTICE_EXTEND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_DIALOG_LATTICE_EXTEND_SPHERE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 206
+    END
+
+    IDD_ATOMWINDOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 227
+    END
+
+    IDD_DIALOG_SYMMETRY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 393
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 238
+    END
+
+    IDD_ADD_ATOM_TO_PLOT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_EDITMOLECULE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 341
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 294
+    END
+
+    IDD_PP_MOLECULESINUNITCELL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 393
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_EDIT_ATOMS_IN_MOLECULE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Madelung\n\nMadelu\n\n\nMadelung.Document\nMadelu Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Madelung"
+    AFX_IDS_IDLEMESSAGE     " "
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOOLS_PCDF_3         "Parabolic function"
+    ID_TOOLS_PCDF_4         "Cubic function"
+    ID_TOOLS_PCDF_5         "Bell shaped function"
+    ID_TOOLS_PCDF_6         "Ewald function"
+    ID_TOOLS_PCDF_7         "Birman function"
+    ID_TOOLS_PCDF_8         "Shifted maximum charge density function"
+    ID_TOOLS_PCDF_9         "Shifted maximum charge density function"
+    ID_TOOLS_POTENTIAL_ON_ATOMS 
+                            "Compute electrostatic potential on selected atoms"
+    ID_PLOT_UNITCELL        "Plot unit cell"
+    ID_TOOLS_SELECTATOMS    "Select atoms on which the electrostatic potential from lattice will be calculated"
+    ID_PLOT_LATTICE         "Plot a number of unit cells"
+    ID_ISOSURFACES          "Plot electrostatic potential isosurface"
+    ID_TOOLS_ROTATEATOMS    "Rotate atoms"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOOLS_SETUP_LATTICE  "Setup crystal lattice"
+    ID_TOOLS_SETUP_OPTIMIZATION 
+                            "Setup lattice points on which charges will be optimized to reproduce the electrostatic potential on selected atoms"
+    ID_TOOLS_OPTIONS        "Customize your settings"
+    ID_TOOLS_PCDF_1         "Step function"
+    ID_TOOLS_PCDF_2         "Linear function"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_CELLBORDERS     "View cell borders"
+    ID_VIEW_WYCKOFF         "View Wyckoff position coordinates"
+    ID_TOOLS_UNSELECTALLATOMS "Unselect all atoms"
+    ID_CANCEL_CALCULATION   "Cancel the calculation"
+    ID_VIEW_OUTPUT          "View the results of calculation"
+    ID_TOOLS_SYMMETRY       "Try to use the point symmetry of the cluster"
+    ID_PLOT_ATOM            "Add an atom to plot"
+    ID_PLOT_ATOM_REMOVE     "Remove an atom from plot"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PROGRESS_BAR         "                                        "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_COMPUTE_DECOMPOSE    "Decompose into irreducible representations"
+    IDR_POPUP_HIDELAYER_X   "Hide layer at X"
+    IDR_POPUP_HIDELAYER_Y   "Hide layer at Y"
+    IDR_POPUP_HIDELAYER_Z   "Hide layer at Z"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Swedish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SVE)
+#ifdef _WIN32
+LANGUAGE LANG_SWEDISH, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_MOLECULE       ICON    DISCARDABLE     "res\\ico00075.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_POPUP_SELECT         "Select atom"
+    ID_POPUP_HIDE           "Hide atom"
+    ID_POPUP_HIDEALL        "Hide all atoms in this position"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_POPUP_UNSELECT       "Unselect atom"
+    ID_POPUP_DESELECT       "Deselect atom"
+    IDR_POPUP_SHOWALL       "Show all atoms"
+END
+
+#endif    // Swedish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Madelung.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

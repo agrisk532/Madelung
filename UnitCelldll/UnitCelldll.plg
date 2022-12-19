@@ -1,0 +1,201 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: UnitCelldll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\agrisk\LOCALS~1\Temp\RSPCC.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "D:\Projects\Madelung" /I "D:\Projects\Win32MTProgramming\Mcl4Mfc\INCLUDE" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "UNITCELLDLL_EXPORTS" /Fp"Debug/UnitCelldll.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projects\Madelung\UnitCelldll\Hexagonal.cpp"
+"D:\Projects\Madelung\UnitCelldll\SimpleCubic.cpp"
+"D:\Projects\Madelung\UnitCelldll\SimpleMonoclinic_B.cpp"
+"D:\Projects\Madelung\UnitCelldll\SimpleMonoclinic_C.cpp"
+"D:\Projects\Madelung\UnitCelldll\SimpleOrthorombic.cpp"
+"D:\Projects\Madelung\UnitCelldll\SimpleTetragonal.cpp"
+"D:\Projects\Madelung\UnitCelldll\Triclinic.cpp"
+"D:\Projects\Madelung\UnitCelldll\Trigonal.cpp"
+"D:\Projects\Madelung\UnitCelldll\UnitCell.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\agrisk\LOCALS~1\Temp\RSPCC.tmp" 
+Creating temporary file "C:\DOCUME~1\agrisk\LOCALS~1\Temp\RSPCD.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "D:\Projects\Madelung" /I "D:\Projects\Win32MTProgramming\Mcl4Mfc\INCLUDE" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "UNITCELLDLL_EXPORTS" /Fp"Debug/UnitCelldll.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projects\Madelung\UnitCelldll\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\agrisk\LOCALS~1\Temp\RSPCD.tmp" 
+Creating temporary file "C:\DOCUME~1\agrisk\LOCALS~1\Temp\RSPCE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/UnitCelldll.pdb" /debug /machine:I386 /out:"Debug/UnitCelldll.dll" /implib:"Debug/UnitCelldll.lib" /pdbtype:sept 
+.\Debug\Hexagonal.obj
+.\Debug\SimpleCubic.obj
+.\Debug\SimpleMonoclinic_B.obj
+.\Debug\SimpleMonoclinic_C.obj
+.\Debug\SimpleOrthorombic.obj
+.\Debug\SimpleTetragonal.obj
+.\Debug\StdAfx.obj
+.\Debug\Triclinic.obj
+.\Debug\Trigonal.obj
+.\Debug\UnitCell.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\agrisk\LOCALS~1\Temp\RSPCE.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Hexagonal.cpp
+d:\projects\madelung\unitcelldll\unitcell.h(38) : warning C4251: 'm_WyckoffPosition' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(39) : warning C4251: 'm_unitCellAtomX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(40) : warning C4251: 'm_unitCellAtomY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(41) : warning C4251: 'm_unitCellAtomZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(42) : warning C4251: 'm_unitCellAtomCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(43) : warning C4251: 'm_unitCellAtomType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(45) : warning C4251: 'm_unitCellAtomCartX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(46) : warning C4251: 'm_unitCellAtomCartY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(47) : warning C4251: 'm_unitCellAtomCartZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(48) : warning C4251: 'm_unitCellAtomCartCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(49) : warning C4251: 'm_unitCellAtomCartType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(50) : warning C4251: 'm_unitCellAtomCartWPos' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(52) : warning C4251: 'm_unitCellAtomCartPotential' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(69) : warning C4251: 'm_abcRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(70) : warning C4251: 'm_angleRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+SimpleCubic.cpp
+d:\projects\madelung\unitcelldll\unitcell.h(38) : warning C4251: 'm_WyckoffPosition' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(39) : warning C4251: 'm_unitCellAtomX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(40) : warning C4251: 'm_unitCellAtomY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(41) : warning C4251: 'm_unitCellAtomZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(42) : warning C4251: 'm_unitCellAtomCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(43) : warning C4251: 'm_unitCellAtomType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(45) : warning C4251: 'm_unitCellAtomCartX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(46) : warning C4251: 'm_unitCellAtomCartY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(47) : warning C4251: 'm_unitCellAtomCartZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(48) : warning C4251: 'm_unitCellAtomCartCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(49) : warning C4251: 'm_unitCellAtomCartType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(50) : warning C4251: 'm_unitCellAtomCartWPos' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(52) : warning C4251: 'm_unitCellAtomCartPotential' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(69) : warning C4251: 'm_abcRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(70) : warning C4251: 'm_angleRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+SimpleMonoclinic_B.cpp
+d:\projects\madelung\unitcelldll\unitcell.h(38) : warning C4251: 'm_WyckoffPosition' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(39) : warning C4251: 'm_unitCellAtomX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(40) : warning C4251: 'm_unitCellAtomY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(41) : warning C4251: 'm_unitCellAtomZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(42) : warning C4251: 'm_unitCellAtomCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(43) : warning C4251: 'm_unitCellAtomType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(45) : warning C4251: 'm_unitCellAtomCartX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(46) : warning C4251: 'm_unitCellAtomCartY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(47) : warning C4251: 'm_unitCellAtomCartZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(48) : warning C4251: 'm_unitCellAtomCartCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(49) : warning C4251: 'm_unitCellAtomCartType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(50) : warning C4251: 'm_unitCellAtomCartWPos' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(52) : warning C4251: 'm_unitCellAtomCartPotential' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(69) : warning C4251: 'm_abcRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(70) : warning C4251: 'm_angleRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+SimpleMonoclinic_C.cpp
+d:\projects\madelung\unitcelldll\unitcell.h(38) : warning C4251: 'm_WyckoffPosition' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(39) : warning C4251: 'm_unitCellAtomX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(40) : warning C4251: 'm_unitCellAtomY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(41) : warning C4251: 'm_unitCellAtomZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(42) : warning C4251: 'm_unitCellAtomCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(43) : warning C4251: 'm_unitCellAtomType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(45) : warning C4251: 'm_unitCellAtomCartX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(46) : warning C4251: 'm_unitCellAtomCartY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(47) : warning C4251: 'm_unitCellAtomCartZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(48) : warning C4251: 'm_unitCellAtomCartCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(49) : warning C4251: 'm_unitCellAtomCartType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(50) : warning C4251: 'm_unitCellAtomCartWPos' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(52) : warning C4251: 'm_unitCellAtomCartPotential' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(69) : warning C4251: 'm_abcRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(70) : warning C4251: 'm_angleRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+SimpleOrthorombic.cpp
+d:\projects\madelung\unitcelldll\unitcell.h(38) : warning C4251: 'm_WyckoffPosition' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(39) : warning C4251: 'm_unitCellAtomX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(40) : warning C4251: 'm_unitCellAtomY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(41) : warning C4251: 'm_unitCellAtomZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(42) : warning C4251: 'm_unitCellAtomCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(43) : warning C4251: 'm_unitCellAtomType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(45) : warning C4251: 'm_unitCellAtomCartX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(46) : warning C4251: 'm_unitCellAtomCartY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(47) : warning C4251: 'm_unitCellAtomCartZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(48) : warning C4251: 'm_unitCellAtomCartCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(49) : warning C4251: 'm_unitCellAtomCartType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(50) : warning C4251: 'm_unitCellAtomCartWPos' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(52) : warning C4251: 'm_unitCellAtomCartPotential' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(69) : warning C4251: 'm_abcRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(70) : warning C4251: 'm_angleRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+SimpleTetragonal.cpp
+d:\projects\madelung\unitcelldll\unitcell.h(38) : warning C4251: 'm_WyckoffPosition' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(39) : warning C4251: 'm_unitCellAtomX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(40) : warning C4251: 'm_unitCellAtomY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(41) : warning C4251: 'm_unitCellAtomZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(42) : warning C4251: 'm_unitCellAtomCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(43) : warning C4251: 'm_unitCellAtomType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(45) : warning C4251: 'm_unitCellAtomCartX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(46) : warning C4251: 'm_unitCellAtomCartY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(47) : warning C4251: 'm_unitCellAtomCartZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(48) : warning C4251: 'm_unitCellAtomCartCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(49) : warning C4251: 'm_unitCellAtomCartType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(50) : warning C4251: 'm_unitCellAtomCartWPos' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(52) : warning C4251: 'm_unitCellAtomCartPotential' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(69) : warning C4251: 'm_abcRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(70) : warning C4251: 'm_angleRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+Triclinic.cpp
+d:\projects\madelung\unitcelldll\unitcell.h(38) : warning C4251: 'm_WyckoffPosition' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(39) : warning C4251: 'm_unitCellAtomX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(40) : warning C4251: 'm_unitCellAtomY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(41) : warning C4251: 'm_unitCellAtomZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(42) : warning C4251: 'm_unitCellAtomCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(43) : warning C4251: 'm_unitCellAtomType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(45) : warning C4251: 'm_unitCellAtomCartX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(46) : warning C4251: 'm_unitCellAtomCartY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(47) : warning C4251: 'm_unitCellAtomCartZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(48) : warning C4251: 'm_unitCellAtomCartCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(49) : warning C4251: 'm_unitCellAtomCartType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(50) : warning C4251: 'm_unitCellAtomCartWPos' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(52) : warning C4251: 'm_unitCellAtomCartPotential' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(69) : warning C4251: 'm_abcRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(70) : warning C4251: 'm_angleRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+Trigonal.cpp
+d:\projects\madelung\unitcelldll\unitcell.h(38) : warning C4251: 'm_WyckoffPosition' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(39) : warning C4251: 'm_unitCellAtomX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(40) : warning C4251: 'm_unitCellAtomY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(41) : warning C4251: 'm_unitCellAtomZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(42) : warning C4251: 'm_unitCellAtomCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(43) : warning C4251: 'm_unitCellAtomType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(45) : warning C4251: 'm_unitCellAtomCartX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(46) : warning C4251: 'm_unitCellAtomCartY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(47) : warning C4251: 'm_unitCellAtomCartZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(48) : warning C4251: 'm_unitCellAtomCartCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(49) : warning C4251: 'm_unitCellAtomCartType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(50) : warning C4251: 'm_unitCellAtomCartWPos' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(52) : warning C4251: 'm_unitCellAtomCartPotential' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(69) : warning C4251: 'm_abcRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(70) : warning C4251: 'm_angleRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+UnitCell.cpp
+d:\projects\madelung\unitcelldll\unitcell.h(38) : warning C4251: 'm_WyckoffPosition' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(39) : warning C4251: 'm_unitCellAtomX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(40) : warning C4251: 'm_unitCellAtomY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(41) : warning C4251: 'm_unitCellAtomZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(42) : warning C4251: 'm_unitCellAtomCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(43) : warning C4251: 'm_unitCellAtomType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(45) : warning C4251: 'm_unitCellAtomCartX' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(46) : warning C4251: 'm_unitCellAtomCartY' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(47) : warning C4251: 'm_unitCellAtomCartZ' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(48) : warning C4251: 'm_unitCellAtomCartCharge' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(49) : warning C4251: 'm_unitCellAtomCartType' : class 'std::vector<int,class std::allocator<int> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(50) : warning C4251: 'm_unitCellAtomCartWPos' : class 'std::vector<char,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(52) : warning C4251: 'm_unitCellAtomCartPotential' : class 'std::vector<double,class std::allocator<double> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(69) : warning C4251: 'm_abcRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+d:\projects\madelung\unitcelldll\unitcell.h(70) : warning C4251: 'm_angleRestrictions' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'UnitCell'
+Linking...
+   Creating library Debug/UnitCelldll.lib and object Debug/UnitCelldll.exp
+
+
+
+<h3>Results</h3>
+UnitCelldll.dll - 0 error(s), 135 warning(s)
+</pre>
+</body>
+</html>

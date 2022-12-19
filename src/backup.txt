@@ -1,0 +1,257 @@
+//////////////////////////////////////////////////////////////////////////////////////////////
+// find the irreducible representations of the point group. Used for counting of the number of
+// orbitals in each representation. Used for the SCF module of the MOLCAS program
+// Orbitals are counted for atoms in EACH Wyckoff position of unitcell
+// 
+void CMadelungDoc::FindIrreps()
+{
+	if(m_siteSymmetry != "" && m_pAtomsOnSymElem != 0)
+	{
+		FILE* fp;
+// just for debug output. MFC TRACE macros doesn't work well
+		fp = fopen("SymTemp.txt","a");
+
+		int symElem;
+		int atom;
+// Number of all atoms on symmetry elements
+		int size = m_pAtomsOnSymElem->GetSize();
+// Now we calculate the contribution to 'character(symmetry element)' for every unshifted atom
+// in every type of symmetry operation. They are the same, irrespective of a point group.
+//
+// 'Gamma3N' keeps the reducible representation
+		int* Gamma3N = new int[m_numberOfRefinedSymmetryElements+1]; // we add 'E' element here
+		for(int i=0;i<m_numberOfRefinedSymmetryElements+1;i++)
+			Gamma3N[i] = 0;
+
+		for(int se=0;se<m_numberOfRefinedSymmetryElements;se++)
+		{
+			SYMMETRY_ELEMENT* elem = m_RefinedElements[se];
+// INVERSION CENTER
+			if(elem->transform_atom == invert_atom)
+			{
+				m_pAtomsOnSymElem->ResetIterators();
+				for(int k=0;k<size;k++) // over all atoms in the 'm_pAtomsOnSymElem'
+				{
+					m_pAtomsOnSymElem->GetNextAtom(symElem,atom);
+					if(!m_pLattice->m_selected[atom])
+						continue;
+					else
+					if(symElem == se) // atom found
+					{
+// now count contributions to Gamma3N
+						int ns = m_pLattice->sFunctions(atom);
+						int np = m_pLattice->pFunctions(atom);
+						int nd = m_pLattice->dFunctions(atom);
+						if(ns)
+							Gamma3N[se] += (+1)*ns;
+						if(np)
+							Gamma3N[se] += (-3)*np;
+						if(nd)
+							Gamma3N[se] += (+5)*nd;
+					}
+					else
+						continue;
+				}
+			}
+// REFLECTION PLANE
+			else
+			if(elem->transform_atom == mirror_atom)
+			{
+				m_pAtomsOnSymElem->ResetIterators();
+				for(int k=0;k<size;k++) // over all atoms in the 'm_pAtomsOnSymElem'
+				{
+					m_pAtomsOnSymElem->GetNextAtom(symElem,atom);
+					if(!m_pLattice->m_selected[atom])
+						continue;
+					else
+					if(symElem == se) // atom found
+					{
+// now count contributions to Gamma3N
+						int ns = m_pLattice->sFunctions(atom);
+						int np = m_pLattice->pFunctions(atom);
+						int nd = m_pLattice->dFunctions(atom);
+						if(ns)
+							Gamma3N[se] += (+1)*ns;
+						if(np)
+							Gamma3N[se] += (+1)*np;
+						if(nd)
+							Gamma3N[se] += (+1)*nd;
+					}
+					else
+						continue;
+				}
+			}
+// ROTATION AXIS, ANY ORDER, EXCEPT INFINITY
+			else
+			if(elem->transform_atom == rotate_atom)
+			{
+				m_pAtomsOnSymElem->ResetIterators();
+				for(int k=0;k<size;k++) // over all atoms in the 'm_pAtomsOnSymElem'
+				{
+					m_pAtomsOnSymElem->GetNextAtom(symElem,atom);
+					if(!m_pLattice->m_selected[atom])
+						continue;
+					else
+					if(symElem == se) // atom found
+					{
+// now count contributions to Gamma3N
+						int ns = m_pLattice->sFunctions(atom);
+						int np = m_pLattice->pFunctions(atom);
+						int nd = m_pLattice->dFunctions(atom);
+						if(ns)
+							Gamma3N[se] += (+1)*ns;
+						if(np)
+							Gamma3N[se] += (+1+2*cos(2*PI/elem->order))*np;
+						if(nd)
+						{
+							double cosd = cos(2*PI/elem->order);
+							Gamma3N[se] += (4*cosd*cosd+2*cosd-1)*nd;
+						}
+					}
+					else
+						continue;
+				}
+			}
+			else
+			{
+				AfxMessageBox("Unsupported symmetry element",MB_OK);
+				return;
+			}
+		}
+// Now we add a contribution to the 'E' element
+		int sizeL = m_pLattice->GetSize();
+		for(int atomL=0;atomL<sizeL;atomL++)
+		{
+			if(m_pLattice->m_selected[atomL])
+			{
+				int ns = m_pLattice->sFunctions(atomL);
+				int np = m_pLattice->pFunctions(atomL);
+				int nd = m_pLattice->dFunctions(atomL);
+				if(ns)
+					Gamma3N[m_numberOfRefinedSymmetryElements] += (+1)*ns;
+				if(np)
+					Gamma3N[m_numberOfRefinedSymmetryElements] += (+3)*np;
+				if(nd)
+					Gamma3N[m_numberOfRefinedSymmetryElements] += (+5)*nd;
+			}
+			else
+				continue;
+		}
+// Gamma3N has been calculated.
+// Now create a point group object with irrep tables for 'm_siteSymmetry'.
+		if(m_pgi)
+		{
+			delete m_pgi;
+			m_pgi = NULL;
+		}
+
+		if(this->m_siteSymmetry == "-1")
+			m_pgi = new Ci;
+		else
+		if(this->m_siteSymmetry == "2" || this->m_siteSymmetry == "..2")
+			m_pgi = new C2('z');
+		else
+		if(this->m_siteSymmetry == ".2.")
+			m_pgi = new C2('y');
+		else
+		if(this->m_siteSymmetry == "2..")
+			m_pgi = new C2('x');
+		else
+		if(this->m_siteSymmetry == "m" || this->m_siteSymmetry == "..m")
+			m_pgi = new Cs('z');
+		else
+		if(this->m_siteSymmetry == ".m.")
+			m_pgi = new Cs('y');
+		else
+		if(this->m_siteSymmetry == "m..")
+			m_pgi = new Cs('x');
+		else
+		if(this->m_siteSymmetry == "2/m" || this->m_siteSymmetry == "..2/m")
+			m_pgi = new C2h('z');
+		else
+		if(this->m_siteSymmetry == ".2/m.")
+			m_pgi = new C2h('y');
+		else
+		if(this->m_siteSymmetry == "2/m..")
+			m_pgi = new C2h('x');
+		else
+		if(this->m_siteSymmetry == "222")
+			m_pgi = new D2;
+		else
+		if(this->m_siteSymmetry == "mm2")
+			m_pgi = new C2v('z');
+		else
+		if(this->m_siteSymmetry == "m2m")
+			m_pgi = new C2v('y');
+		else
+		if(this->m_siteSymmetry == "2mm")
+			m_pgi = new C2v('x');
+		else
+		if(this->m_siteSymmetry == "mmm")
+			m_pgi = new D2h;
+		else
+		{
+			AfxMessageBox("CMadelungDoc: requested PointGroupIrrep not implemented",MB_OK);
+			return;
+		}
+// now split the 'Gamma3N' into irreducible representations
+// irreps numbered as in the point group tables
+//
+//  CHECK THIS IF MORE THAN 1 OPERATOR IN THE SYMMETRY OPERATOR CLASS
+//  SINCE SYMMETRY OPERATORS IN GAMMA3N[] ARE ALL, BUT IN m_pgi - IN CLASSES.
+//
+//
+		int ir = m_pgi->GetNumberOfIrreps();
+		int symClasses = m_pgi->GetNumberOfSymmetryClasses();
+		for(int irrep=0;irrep<ir;irrep++)
+		{
+			int coeff = 0; // coefficient of an irrep in the 'Gamma3N'
+			for(int op=0;op<symClasses;op++)
+			{
+				int operat = this->FindCorrespondingOperatorInGamma3N(m_pgi->GetOperatorSymbol(op));
+
+				if(operat == -1) // error
+				{
+					AfxMessageBox("CMadelungDoc: Corresponding operator not found",MB_OK);
+					return;
+				}
+				string irp = m_pgi->GetIrrepName(irrep);
+				string opname = m_pgi->GetOperatorSymbol(op);
+// irrep coefficient in the reducible representation expansion
+// for safety we use here the symbolic names instead of integer indexes. But not necessary
+				int character = m_pgi->GetCharacter(irp,opname);
+				int charInGamma3N = Gamma3N[operat];
+				int multip = m_pgi->GetOperatorMultiplicity(op);
+				coeff += character * charInGamma3N * multip;
+			}
+			coeff /= m_pgi->GetNumberOfSymmetryOperators();
+			m_pgi->m_Irreps[irrep]->SetCoefficient(coeff);
+		}
+// output the representation reduction results
+		fprintf(fp,"The decomposition of the reducible representation of basis functions\n");
+		fprintf(fp,"Site symmetry point group is %s\n",this->m_siteSymmetry.c_str());
+		fprintf(fp,"Reducible representation Gamma3N[] characters = ");
+		for(int op=0;op<symClasses;op++)
+		{
+			string oper = m_pgi->GetOperatorSymbol(op);
+			int operat = this->FindCorrespondingOperatorInGamma3N(oper);
+			int charInGamma3N = Gamma3N[operat];
+			fprintf(fp,"%d(%s) ",charInGamma3N,oper.c_str());
+		}
+		fprintf(fp,"\nDecomposition : ");
+		int size1 = m_pgi->GetNumberOfIrreps();
+		for(int k=0;k<size1;k++)
+		{
+			fprintf(fp,"%d%s",m_pgi->m_Irreps[k]->GetCoefficient(),m_pgi->GetIrrepName(k).c_str());
+			if(k<size1-1) fprintf(fp,"+");
+		}
+
+		if(Gamma3N) delete [] Gamma3N;
+		fclose(fp);
+	}
+	else
+	{
+		AfxMessageBox("CMadelungDoc: no m_pAtomsOnSymElem created",MB_OK);
+		return;
+	}
+}

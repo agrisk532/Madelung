@@ -1,0 +1,59 @@
+Looking for the inversion center
+           1 candidates examined
+           0 removed early
+           0 removed during initial mating stage
+           0 removed as duplicates
+           0 removed because of the wrong transformation order
+           0 removed after unsuccessful optimization
+           1 accepted
+Looking for the planes of symmetry
+           1 candidates examined
+           0 removed early
+           0 removed during initial mating stage
+           0 removed as duplicates
+           0 removed because of the wrong transformation order
+           0 removed after unsuccessful optimization
+           1 accepted
+Looking for infinity axis
+           1 candidates examined
+           0 removed early
+           0 removed during initial mating stage
+           0 removed as duplicates
+           0 removed because of the wrong transformation order
+           0 removed after unsuccessful optimization
+           1 accepted
+Looking for C2 axes
+           0 candidates examined
+           0 removed early
+           0 removed during initial mating stage
+           0 removed as duplicates
+           0 removed because of the wrong transformation order
+           0 removed after unsuccessful optimization
+           0 accepted
+Looking for higher axes
+           0 candidates examined
+           0 removed early
+           0 removed during initial mating stage
+           0 removed as duplicates
+           0 removed because of the wrong transformation order
+           0 removed after unsuccessful optimization
+           0 accepted
+Looking for the improper axes
+           0 candidates examined
+           0 removed early
+           0 removed during initial mating stage
+           0 removed as duplicates
+           0 removed because of the wrong transformation order
+           0 removed after unsuccessful optimization
+           0 accepted
+There is an inversion center in the molecule
+     Residual                      Position
+   4.9651e-016 (    1.00000000,    1.50000000,    2.00000000)
+There are 1 normal axes in the molecule
+     Residual  Order         Direction of the axis                         Supporting point
+  0 2.2204e-016 Inf ( 1.00000000, 0.00000000, 0.00000000) (    1.00000000,    1.50000000,    2.00000000)
+There are no improper axes in the molecule
+There are 1 planes of symmetry in the molecule
+     Residual          Direction of the normal           Distance
+  0 0.0000e+000 ( 0.00000000, 0.00000000, 1.00000000)     2.00000000
+Molecule has the following symmetry elements: (i) (Cinf) (sigma) 

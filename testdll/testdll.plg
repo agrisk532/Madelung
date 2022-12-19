@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: testdll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\agrisk\LOCALS~1\Temp\RSP4C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "D:\Projects\Madelung\Spg_dll" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/testdll.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projects\Madelung\testdll\testdll.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\agrisk\LOCALS~1\Temp\RSP4C.tmp" 
+Creating temporary file "C:\DOCUME~1\agrisk\LOCALS~1\Temp\RSP4D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib spg_dll.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/testdll.pdb" /debug /machine:I386 /out:"Debug/testdll.exe" /pdbtype:sept /libpath:"D:\Projects\Madelung\Spg_dll\Debug" 
+.\Debug\StdAfx.obj
+.\Debug\testdll.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\agrisk\LOCALS~1\Temp\RSP4D.tmp"
+<h3>Output Window</h3>
+Compiling...
+testdll.cpp
+d:\projects\madelung\spg_dll\spg_names.h(24) : warning C4251: 'sgFullName' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'spg_names'
+d:\projects\madelung\spg_dll\spg_names.h(25) : warning C4251: 'sgShortName' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'spg_names'
+d:\projects\madelung\spg_dll\spg_names.h(26) : warning C4251: 'sgSchoenflies' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'spg_names'
+d:\projects\madelung\spg_dll\spg_names.h(27) : warning C4251: 'sgHall' : class 'std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' needs to have dll-interface to be used by clients of class 'spg_names'
+Linking...
+
+
+
+<h3>Results</h3>
+testdll.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,81 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_AW_GB                               0x10065
+HID_WIN_ATOMWIN                         0x10066
+HID_PROGRESS_BAR                        0x10067
+HID_TOOLS_SETUP_LATTICE                 0x18004
+HID_TOOLS_SETUP_OPTIMIZATION            0x18006
+HID_TOOLS_OPTIONS                       0x18007
+HID_TOOLS_SETUP_LATTICESUMMATION        0x1800D
+HID_TOOLS_PCDF_STEP                     0x1800E
+HID_TOOLS_PCDF_1                        0x1800E
+HID_TOOLS_PCDF_2                        0x1800F
+HID_TOOLS_PCDF_3                        0x18010
+HID_TOOLS_PCDF_4                        0x18011
+HID_TOOLS_PCDF_5                        0x18012
+HID_TOOLS_PCDF_6                        0x18013
+HID_TOOLS_PCDF_7                        0x18014
+HID_TOOLS_PCDF_8                        0x18015
+HID_TOOLS_PCDF_9                        0x18016
+HID_TOOLS_POTENTIAL_ON_ATOMS            0x18018
+HID_PLOT_UNITCELL                       0x18019
+HID_TOOLS_SELECTATOMS                   0x1801A
+HID_PLOT_LATTICE                        0x1801B
+HID_ISOSURFACES                         0x1801C
+HID_TOOLS_ROTATEATOMS                   0x1801D
+HID_VIEW_BONDS                          0x18020
+HID_TOOLS_EXTEND_NORMAL                 0x18021
+HID_TOOLS_EXTEND_SPHERE                 0x18022
+HID_TOOLS_EXTEND_DELETE                 0x18023
+HID_VIEW_CELLBORDERS                    0x18024
+HID_VIEW_WYCKOFF                        0x18025
+HID_TOOLS_UNSELECTALLATOMS              0x18026
+HID_CANCEL_CALCULATION                  0x18027
+HID_VIEW_OUTPUT                         0x18028
+HID_OPTIMIZE                            0x18029
+HID_TOOLS_SYMMETRY                      0x1802A
+HID_PLOT_ATOM                           0x1802B
+HID_PLOT_ATOM_REMOVE                    0x1802C
+HID_POPUP_SELECT                        0x1802D
+HID_POPUP_HIDE                          0x1802E
+HID_POPUP_HIDEALL                       0x1802F
+HID_POPUP_UNSELECT                      0x18030
+HID_POPUP_DESELECT                      0x18039
+HID_COMPUTE_DECOMPOSE                   0x1803B
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_MADELUTYPE                         0x20081
+HIDR_START                              0x200D8
+HIDR_MAINFRAME_CANCEL                   0x200DB
+HIDR_POPUP                              0x200E3
+HIDR_POPUP_SELECTATOM                   0x28035
+HIDR_POPUP_UNSELECTATOM                 0x28036
+HIDR_POPUP_HIDE                         0x28037
+HIDR_POPUP_HIDEALL                      0x28038
+HIDR_POPUP_SHOWALL                      0x2803A
+HIDR_POPUP_HIDELAYER_X                  0x2803C
+HIDR_POPUP_HIDELAYER_Y                  0x2803D
+HIDR_POPUP_HIDELAYER_Z                  0x2803E
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_PP_EDITATOMS                       0x20069
+HIDD_PP_ATOMSINUNITCELL                 0x20069
+HIDD_PLOT_UNITCELLS                     0x2006A
+HIDD_PP_CRYSTAL_LATTICE                 0x2006B
+HIDD_PP_SPACE_GROUP                     0x2006B
+HIDD_DIALOG_EDIT_ATOM                   0x200D3
+HIDD_DIALOG_LATTICE_EXTEND              0x200D6
+HIDD_DIALOG_LATTICE_EXTEND_SPHERE       0x200D7
+HIDD_ATOMWINDOW                         0x200D8
+HIDD_DIALOG_SYMMETRY                    0x200DD
+HIDD_ADD_ATOM_TO_PLOT                   0x200DF
+HIDD_EDITMOLECULE                       0x200E4
+HIDD_MOLECULELIST                       0x200E5
+HIDD_PP_MOLECULESINUNITCELL             0x200E5
+HIDD_EDIT_ATOMS_IN_MOLECULE             0x200E6
+ 
+// Frame Controls (IDW_*) 

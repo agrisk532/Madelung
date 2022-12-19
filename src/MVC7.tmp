@@ -1,0 +1,133 @@
+// MadelungView.h : interface of the CMadelungView class
+//
+/////////////////////////////////////////////////////////////////////////////
+
+#if !defined(AFX_MADELUNGVIEW_H__77AC15CB_927F_4F9C_9675_472B03E8E8C4__INCLUDED_)
+#define AFX_MADELUNGVIEW_H__77AC15CB_927F_4F9C_9675_472B03E8E8C4__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+#include <vector>
+using namespace std;
+
+#define ATOM_TYPES 200
+
+class vtkRenderer;
+class vtkWin32OpenGLRenderWindow;
+class vtkSphereSource;
+class vtkCylinderSource;
+class vtkLineSource;
+class vtkWin32RenderWindowInteractor;
+class InteractorStyleNorm;
+class InteractorStyleSelect;
+class vtkActor;
+class vtkPolyDataMapper;
+class vtkPicker;
+class UnitCell;
+
+class CMadelungView : public CView
+{
+protected: // create from serialization only
+	CMadelungView();
+	DECLARE_DYNCREATE(CMadelungView)
+
+// Attributes
+public:
+	CMadelungDoc* GetDocument();
+
+// Operations
+public:
+
+// indicates that the initial cluster is rendered. Bonds can be plot also. Activate menu item
+	bool m_ClusterIsRendered;
+// indicates that atoms for which to calculate the potential, are selected
+	bool m_AtomsAreSelected;
+// indicates that isosurface data is ready
+	bool m_IsosurfaceDataIsReady;
+
+	void PrepareForUnitCellPlot(); // sets up all rendering information
+// Overrides
+	// ClassWizard generated virtual function overrides
+	//{{AFX_VIRTUAL(CMadelungView)
+	public:
+	virtual void OnDraw(CDC* pDC);  // overridden to draw this view
+	virtual BOOL PreCreateWindow(CREATESTRUCT& cs);
+	protected:
+	virtual BOOL OnPreparePrinting(CPrintInfo* pInfo);
+	virtual void OnBeginPrinting(CDC* pDC, CPrintInfo* pInfo);
+	virtual void OnEndPrinting(CDC* pDC, CPrintInfo* pInfo);
+	//}}AFX_VIRTUAL
+
+// Implementation
+public:
+	virtual ~CMadelungView();
+	void Clear();
+	void WriteStatusBarMessage(CString msg);
+// removes all atoms but central cluster from the plot
+	void DeleteLatticeExtensionActors();
+// adds actors in the positions of lattice extension
+	void ExtendLatticeActors();
+
+	int m_NumberOfAtomsInPlot;
+//	vector<vtkActor*> m_patomActor[ATOM_TYPES];
+	vector<vtkActor*> m_patomActor;
+	vector<vtkActor*> m_pbondActor;
+
+#ifdef _DEBUG
+	virtual void AssertValid() const;
+	virtual void Dump(CDumpContext& dc) const;
+#endif
+
+protected:
+
+	vtkRenderer* m_pRenderer;
+	vtkWin32OpenGLRenderWindow* m_pRenWin;
+	vtkSphereSource* m_sphere[ATOM_TYPES];
+	vtkCylinderSource* m_pcyl[ATOM_TYPES];
+	vtkLineSource* m_pLine;
+	vtkPolyDataMapper* m_pLineMapper;
+	vtkWin32RenderWindowInteractor* m_pIrenNorm;
+	vtkWin32RenderWindowInteractor* m_pIrenSelect;
+	vtkPolyDataMapper* m_ppdmSpheres[ATOM_TYPES];
+	vtkPicker* m_picker;
+	InteractorStyleNorm* m_pIrenStyle;
+	InteractorStyleSelect* m_pIrenStyleSelect;
+	
+	void AddUnitCellVerticesToRenderer(CLattice* pl);
+
+	bool m_BondsAreRendered;	// set to true when all bonds are rendered
+	bool m_AtomsAreRotated;		// true if atom rotation mode, false if selection mode
+
+// Generated message map functions
+protected:
+	//{{AFX_MSG(CMadelungView)
+	afx_msg void OnToolsSelectatoms();
+	afx_msg void OnUpdateToolsSelectatoms(CCmdUI* pCmdUI);
+	afx_msg void OnToolsRotateatoms();
+	afx_msg void OnViewBonds();
+	afx_msg void OnUpdateViewBonds(CCmdUI* pCmdUI);
+	afx_msg void OnUpdateToolsRotateatoms(CCmdUI* pCmdUI);
+	afx_msg void OnToolsExtendNormal();
+	afx_msg void OnToolsExtendSphere();
+	afx_msg void OnUpdateToolsExtendNormal(CCmdUI* pCmdUI);
+	afx_msg void OnUpdateToolsExtendSphere(CCmdUI* pCmdUI);
+	afx_msg void OnUpdateFilePrint(CCmdUI* pCmdUI);
+	afx_msg void OnUpdateFilePrintPreview(CCmdUI* pCmdUI);
+	afx_msg void OnUpdateFileSave(CCmdUI* pCmdUI);
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+};
+
+#ifndef _DEBUG  // debug version in MadelungView.cpp
+inline CMadelungDoc* CMadelungView::GetDocument()
+   { return (CMadelungDoc*)m_pDocument; }
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+
+//{{AFX_INSERT_LOCATION}}
+// Microsoft Visual C++ will insert additional declarations immediately before the previous line.
+
+#endif // !defined(AFX_MADELUNGVIEW_H__77AC15CB_927F_4F9C_9675_472B03E8E8C4__INCLUDED_)
